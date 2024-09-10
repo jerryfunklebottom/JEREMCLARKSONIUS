@@ -1,0 +1,94 @@
+
+
+.par h2{
+    font-size: 1.5vw;
+}
+
+.par {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.par img{
+    max-width: 19.5vw;
+    max-height: 22.8vw;
+    border: 2px rgb(230, 179, 37) solid;
+    align-items: center;
+    margin-left: 32.6vw;
+}
+
+.contain {
+    bottom:0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    background-color: rgb(97, 72, 28);
+    height: 5.859375vw;
+    border-top: 2px solid rgb(230, 179, 37);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: auto;
+}
+
+.contain h5{
+    font-size: 1vw;
+}
+
+body {
+    background-color: rgb(191, 151, 66) !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    color: rgb(230, 179, 37) !important;
+}
+
+* {
+    padding: 0px !important;
+    font-family: Helvetica !important;
+}
+
+.title {
+    font-family: autumn_flowersregular;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    background-color: rgb(97, 72, 28);
+    /* height: 6.510416666666667vw; */
+    border-bottom: 2px solid rgb(230, 179, 37);
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.2vw;
+    gap: 1px;
+}
+
+.buttons button{
+    width: 4.557291666666667vw;
+    height: 1.953125vw;
+    background-color:  rgb(97, 72, 28);
+    color: rgb(230, 179, 37);
+    border: 2px rgb(230, 179, 37) solid;
+    display: inline-block;
+    font-size: small;
+    font-family: Helvetica;
+    cursor: pointer;
+    font-size: 0.8463541666666666vw;
+}
+
+.buttons button:hover{
+    background-color: rgb(230, 82, 37);
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}

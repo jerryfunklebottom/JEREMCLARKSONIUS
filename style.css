@@ -1,0 +1,235 @@
+body {
+    background-color: rgb(191, 151, 66) !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    color: rgb(230, 179, 37) !important;
+}
+
+* {
+    padding: 0px !important;
+    font-family: Helvetica !important;
+}
+
+.title {
+    font-family: autumn_flowersregular;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    background-color: rgb(97, 72, 28);
+    /* height: 6.510416666666667vw; */
+    border-bottom: 2px solid rgb(230, 179, 37);
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.2vw;
+    gap: 1px;
+}
+
+.buttons button{
+    width: 4.557291666666667vw;
+    height: 1.953125vw;
+    background-color:  rgb(97, 72, 28);
+    color: rgb(230, 179, 37);
+    border: 2px rgb(230, 179, 37) solid;
+    display: inline-block;
+    font-size: small;
+    font-family: Helvetica;
+    cursor: pointer;
+    font-size: 0.8463541666666666vw;
+}
+
+.buttons button:hover{
+    background-color: rgb(230, 82, 37);
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.l a{
+    font-size: 0.8vw;
+    color: rgb(230, 179, 37);
+    text-decoration: none;
+}
+
+.l a:hover {
+    cursor: pointer;
+    color: rgb(164, 126, 59);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.title h1{
+    text-align: center;
+}
+
+.sol {
+    display: flex;
+    gap: 30px;
+}
+
+.gre {
+    display: flex;
+    gap: 30px;
+}
+
+.fir {
+    display: flex;
+    gap: 30px;
+}
+
+.sec {
+    display: flex;
+    gap: 30px;
+}
+
+.sol h2{
+    font-size: 1.5vw;
+}
+
+.gre h2{
+    font-size: 1.5vw;
+}
+
+.fir h2{
+    font-size: 1.5vw;
+}
+
+.sec h2{
+    font-size: 1.5vw;
+}
+
+.sol img{
+    max-width: 16vw;
+    max-height: 16vw;
+    border: 2px rgb(230, 179, 37) solid;
+}
+
+.gre img{
+    max-width: 16vw;
+    max-height: 16vw;
+    border: 2px rgb(230, 179, 37) solid;
+}
+
+.fir img{
+    max-width: 16vw;
+    max-height: 16vw;
+    border: 2px rgb(230, 179, 37) solid;
+}
+
+.sec img{
+    max-width: 16vw;
+    max-height: 16vw;
+    border: 2px rgb(230, 179, 37) solid;
+}
+
+.sol button{
+    width:  3.2552083333333335vw;
+    height:  7.8125vw;
+    background-color: rgb(191, 151, 66);
+    color: rgb(230, 179, 37);
+    border: 2px rgb(230, 179, 37) solid;
+    display: inline-block;
+    font-size: small;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+
+.sol button:hover{
+    background-color: rgb(97, 72, 28);
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.gre button{
+    width:  3.2552083333333335vw;
+    height:  7.8125vw;
+    background-color: rgb(191, 151, 66);
+    color: rgb(230, 179, 37);
+    border: 2px rgb(230, 179, 37) solid;
+    display: inline-block;
+    font-size: small;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+
+.gre button:hover{
+    background-color: rgb(97, 72, 28);
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.fir button{
+    width: 3.2552083333333335vw;
+    height: 7.8125vw;
+    background-color: rgb(191, 151, 66);
+    color: rgb(230, 179, 37);
+    border: 2px rgb(230, 179, 37) solid;
+    display: inline-block;
+    font-size: small;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+
+.fir button:hover{
+    background-color: rgb(97, 72, 28);
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.sec button{
+    width:  3.2552083333333335vw;
+    height:  7.8125vw;
+    background-color: rgb(191, 151, 66);
+    color: rgb(230, 179, 37);
+    border: 2px rgb(230, 179, 37) solid;
+    display: inline-block;
+    font-size: small;
+    font-family: Helvetica;
+    cursor: pointer;
+}
+
+.sec button:hover{
+    background-color: rgb(97, 72, 28);
+    -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+
+.contain {
+    bottom:0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    background-color: rgb(97, 72, 28);
+    height: 5.859375vw;
+    border-top: 2px solid rgb(230, 179, 37);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: auto;
+}
+
+.contain h5{
+    font-size: 1vw;
+}
+
+body {
+    gap: 0.2vw;
+}
